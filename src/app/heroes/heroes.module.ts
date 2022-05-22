@@ -7,6 +7,7 @@ import { ListadoComponent } from './pages/listado/listado.component';
 import { HeroeComponent } from './pages/heroe/heroe.component';
 import { HeroesRoutingModule } from './heroes-routing.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MaterialModule } from '../material/material.module';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,11 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     ListadoComponent,
     HeroeComponent,
   ],
-  imports: [CommonModule, HeroesRoutingModule, FlexLayoutModule],
+  imports: [
+    CommonModule,
+    HeroesRoutingModule,
+    FlexLayoutModule,
+    MaterialModule,
+  ],
 })
 export class HeroesModule {}
