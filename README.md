@@ -33,3 +33,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - https://google.github.io/material-design-icons/#icon-font-for-the-web
 - https://material.angular.io/components/button/examples
 - https://github.com/angular/flex-layout
+- https://quicktype.io/
