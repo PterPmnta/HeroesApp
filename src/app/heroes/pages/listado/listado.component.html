@@ -1,5 +1,15 @@
-<p>listado works!</p>
+<h1>listado Heroes!</h1>
+<mat-divider></mat-divider>
+<br>
 
-<ul *ngFor="let heroe of heroes">
-  <li>{{heroe.superhero}}</li>
-</ul>
+<div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="20">
+  <div fxFlex="20"
+       fxFlex.lg="15"
+       fxFlex.sm="30"
+       *ngFor="let heroe of heroes">
+
+       <app-heroe-tarjeta [heroe]="heroe"></app-heroe-tarjeta>
+
+  </div>
+</div>
+
