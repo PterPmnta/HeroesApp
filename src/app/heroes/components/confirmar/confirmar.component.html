@@ -1,0 +1,15 @@
+<h3>¿Esta seguro de querer eliminar al heroe <strong>{{data.superhero}}</strong>?</h3>
+
+<hr>
+
+<div fxLayout="row">
+  <button mat-raised-button color="warn"
+          (click)="borrar()">
+    Si, continuar
+  </button>
+
+  <button mat-raised-button color="basic"
+          (click)="cancelar()">
+    No, cancelar
+  </button>
+</div>
